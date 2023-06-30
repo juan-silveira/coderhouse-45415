@@ -1,0 +1,55 @@
+body {
+    font-family: 'DM Sans';font-size: 11px;
+    background-color: #eeeeee;
+}
+
+header {
+    background-color: #212121;
+    color: #EAFF6A;
+}
+
+section {
+    background-color: #595959;
+    color: #eeeeee;
+    margin-bottom: 10px;
+}
+
+article {
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #eeeeee;
+    color: #595959;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #EAFF6A;
+    color: #595959;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+    color: #595959;
+}
+
+tr {
+    font-size: 14px;
+    background-color: #eeeeee;
+}
+
+.link-receita {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.link-noticia {
+    text-decoration: none;
+    color: #595959;
+}
+
+.table-header {
+    background-color: #EAFF6A;
+}
+
