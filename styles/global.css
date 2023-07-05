@@ -39,6 +39,12 @@ tr {
     background-color: #eeeeee;
 }
 
+#form-info {
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    max-width: 500px;
+}
+
 .link-receita {
     color: #eeeeee;
     text-decoration: none;
