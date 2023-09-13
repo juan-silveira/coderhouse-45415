@@ -1,0 +1,74 @@
+.ex1, .ex2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col1 div, .col2 div {
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    margin-top: 40px;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+.grad__top {
+    background-image: linear-gradient(to top, red,yellow);
+}
+
+.grad__right {
+    background-image: linear-gradient(to right, red,yellow);
+}
+
+.grad__bottom {
+    background-image: linear-gradient(to bottom, red,yellow);
+}
+
+.grad__left {
+    background-image: linear-gradient(to left, red,yellow);
+}
+
+.grad__deg {
+    background-image: linear-gradient(45deg, red,yellow);
+}
+
+.grad__radial {
+    background-image: radial-gradient(red,yellow);
+}
+
+.red__box {
+    background-color: red;
+}
+
+.transform__translate {
+    transform: translate(10px, 20px);
+}
+
+.transform__rotate {
+    transform: rotate(30deg);
+}
+
+.transform__skew {
+    transform: skew(20deg, 10deg);
+}
+
+.box__transform1, .box__transform2, .box__transform3 {
+    transition: all 1s;
+}
+
+.box__transform1:hover {
+    background-color: blue;
+}
+
+.box__transform2:hover {
+    transform: scaleX(2);
+}
+
+.box__transform3:hover {
+    transform: translateX(500px);
+}

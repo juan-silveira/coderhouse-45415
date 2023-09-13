@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 21</title>
+</head>
+
+<body>
+    <h1>Prática 1</h1>
+    <form class="form">
+        <label for="input">Produto:</label>
+        <input type="text" id="input1" name="input">
+        <button class="enviar" type="submit">Salvar</button>
+        <button class="visualizar">Visualizar</button>
+        <button class="limpar">Limpar</button>
+    </form>
+    <div class="lista" style="display: none;">
+    </div>
+    <hr>
+    
+    <h1>Prática 2</h1>
+    <form id="form">
+        <label for="aluno">Aluno:</label>
+        <input type="text" id="aluno" name="aluno" required>
+        <br>
+        <label for="nota">Nota:</label>
+        <input type="text" id="nota" name="nota" required>
+        <br>
+        <button class="salvar" type="submit">Salvar</button>
+    </form>
+    <br><hr>
+    <form id="form2">
+            <label for="showAlunoInput">Exibir Aluno:</label>
+            <input type="text" id="show-aluno" name="showAlunoInput" required>
+            <button id="show" type="submit">Exibir Aluno</button>
+            <div id="showAluno"></div>
+    </form>
+    <br><hr>
+    <form id="form3">
+        <label for="removeAlunoInput">Remover Aluno:</label>
+        <input type="text" id="delete-aluno" name="removeAlunoInput" required>
+        <button id="delete" type="submit">Remover</button>
+        <div id="deleteAluno"></div>
+    </form>
+    <br><hr>
+    <div class="showNotas">
+        <button id="showNotasButton">Exibir Notas</button>
+        <div id="lista" style="display: none;">
+        </div>
+    </div>
+    <script src="./js/aula21.js"></script>
+</body>
+
+</html>

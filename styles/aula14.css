@@ -1,0 +1,99 @@
+.grid {
+    min-height: 30vh;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav section"
+    "nav footer";
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-columns: 200px auto;
+}
+
+.cards {
+    border: 1px solid black;
+}
+
+header {
+    grid-area: header;
+    background-color: palevioletred;
+}
+footer {
+    grid-area: footer;
+    background-color: greenyellow;
+}
+section {
+    grid-area: section;
+    background-color: orange;
+}
+nav {
+    grid-area: nav;
+    background-color: yellow;
+}
+
+.content {
+    border: 1px dotted black;
+    max-width: 60%;
+}
+
+.grid2{
+    min-height: 40vh;
+    
+    display: grid;
+    grid-template-areas: 
+    "cel1 cel1 cel2 cel2 cel2"
+    "cel1 cel1 cel3 cel3 cel4"
+    "cel5 cel5 cel3 cel3 cel6";
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    background-color: #cecece;
+    
+}
+
+.border {
+    border: 1px solid black;
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.cel1 {
+    grid-area: cel1;
+    background-color: palevioletred;
+    /* align-self: start; */
+}
+
+.cel2 {
+    grid-area: cel2;
+    background-color: greenyellow;
+    align-self: start;
+    justify-self: end;
+}
+
+.cel3 {
+    grid-area: cel3;
+    background-color: purple;
+    align-self: end;
+    justify-self: center;
+}
+
+.cel4 {
+    grid-area: cel4;
+    background-color: yellow;
+    align-self: start;
+    justify-self: end;
+}
+
+.cel5 {
+    grid-area: cel5;
+    background-color: blue;
+    align-self: end;
+}
+
+.cel6 {
+    grid-area: cel6;
+    background-color: gray;
+    align-self: center;
+    justify-self: end;
+}

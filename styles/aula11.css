@@ -1,0 +1,109 @@
+body {
+    font-family: 'DM Sans';font-size: 11px;
+    background-color: #eeeeee;
+}
+
+div {
+    margin: 5px 0 5px 0;
+}
+
+.on-hover {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.on-hover:hover {
+    background-color: blue;
+    color: white;
+}
+
+.on-active {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.on-active:active {
+    background-color: red;
+}
+
+.on-visited:visited {
+    color: green;
+}
+
+.on-focus:focus {
+    background-color: brown;
+}
+
+/* th {
+    background-color: #eee;
+} */
+
+li:first-child {
+    color: orange;
+}
+
+li:last-child {
+    color: green;
+}
+
+tr:nth-child(2n){ 
+    background-color: darkgrey; 
+}
+
+div:not(.not-div){
+    background-color: #fafafa;
+}
+
+/* qualquer elemento radio */
+input[type="radio"]:disabled {
+    margin-left: 25px;
+}
+
+input[type="checkbox"]:checked {
+    margin-left: 25px;
+}
+
+/* apenas elementos option */
+option:checked {
+    color: red;
+}
+
+input[type=email]:invalid {
+    background: orange;
+}
+input[type=email]:valid {
+    background: green;
+}
+
+input:required {
+    background: red;
+}
+
+input::placeholder {
+    color: red
+}
+
+.p1::first-letter {
+    color: red;
+    text-transform: uppercase;
+}
+
+.p2::first-line {
+    color: red;
+}
+
+p::selection {
+    color: white;
+    background: black;
+}
+
+::marker {
+    color: red;
+    font-size: 23px;
+}
+
+
+
+
+
+
