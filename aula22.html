@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aula 22</title>
+</head>
+
+<body>
+    <!-- Atividade 1 -->
+    <h2>Atividade 1</h2>
+    <div id="demo">
+        <form id="form">
+            <label for="pokemon">Digite um id de pokemon para retornar o nome:</label><br>
+            <input type="text" id="pokemon" name="pokemon" required>
+            <button type="submit" id="apiButton">Enviar</button>
+        </form>
+        <p id="name"></p>
+    </div><br>
+    <hr>
+
+    <!-- Atividade 2 -->
+
+    <h2>Atividade 2</h2>
+    <div id="demo2">
+        <button type="button" id="apiPaisButton">Clique para ver o nome oficial do Brasil e a capital</button>
+        <p id="nomePais"></p>
+        <img id="flag" src="data:image/png;base64,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" alt="flag">
+    </div>
+    <script src="./js/aula22.js"></script>
+</body>
+
+</html>

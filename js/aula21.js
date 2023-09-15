@@ -51,7 +51,6 @@ document.getElementById("form").addEventListener("submit", (e) => {
             notas = alunos[pos].notas;
             notas.push(nota);
             alunos[pos].notas = notas;
-            console.log(alunos)
             localStorage.setItem("turma", JSON.stringify(alunos));
         } else {
             notas.push(nota);
